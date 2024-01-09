@@ -136,34 +136,45 @@ h2 {
 .place {
 
     width: 1300px;
-    height: 616px;
-
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+
+.butn {
+    position: relative;
+    top: 203px;
+    right: 300px;
 }
 
 .text-t {
     color: #F00;
 
 
-
+    padding-bottom: 20px;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px;
+    line-height: 20px;
 
 
 }
 
 .time {
+    text-align: center;
+
     color: #070211;
-    font-family: Inter;
+
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    text-transform: capitalize;
+
 }
 
 .btn-2 {
@@ -171,7 +182,10 @@ h2 {
     padding: 16px 32px;
     border-radius: 8px;
     background: #F00;
+    padding-left: 30px;
 }
+
+
 
 .gift {
     width: 1300px;
