@@ -6,6 +6,7 @@
     background: url(Banner\ Image.png);
     border-radius: 16px;
     filter: brightness(65%);
+    margin: 0 auto;
 
 }
 
@@ -99,7 +100,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .party-title {
@@ -133,7 +134,7 @@ h2 {
 }
 
 .place {
-
+    margin-top: 30px;
     text-align: center;
     padding: 100px 386px 214px 385px;
 
@@ -169,4 +170,57 @@ h2 {
     padding: 16px 32px;
     border-radius: 8px;
     background: #F00;
+}
+
+.gift {
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+}
+
+.gift-offer {
+    color: #F00;
+
+    font-size: 24px;
+
+    font-weight: 500;
+
+}
+
+.gift-title {
+    color: #070211;
+
+
+    font-size: 48px;
+
+    font-weight: 900;
+
+
+}
+
+.gift-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.photo {
+    transition: transform 0.3s;
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+
+.img-all:hover {
+
+    transform: scale(1.1);
+
 }
